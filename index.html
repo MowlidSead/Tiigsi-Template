@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/input.css">
+    <link rel="shortcut icon" href="https://tiigsi.com/assets/img/brand/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/015eaefc81.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./tailwind.min.css">
+    <title>Online Courses - Learn Anytime, Anywhere, On Your Schedule | Tiigsi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+
+    <!-- Header -->
+    <header id="header" class="bg-white h-20 flex justify-center gap-[800px] items-center">
+        <div class="flex py-1 px-5 justify-between w-[75rem] items-center">
+            <div class="flex justify-center items-center gap-5">
+                <img class="block mr-10 w-24 h-16" src="https://tiigsi.com/assets/img/brand/logo.png" alt="">
+                <div class="hidden lg:grid grid-flow-col">
+                    <div class="group">
+                    <a class="py-5 cursor-pointer opacity-60 hover:opacity-80 hover:transition-all flex justify-center items-center gap-2" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="#3C4858" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7.24 2H5.34C3.15 2 2 3.15 2 5.33V7.23C2 9.41 3.15 10.56 5.33 10.56H7.23C9.41 10.56 10.56 9.41 10.56 7.23V5.33C10.57 3.15 9.42 2 7.24 2Z" fill="#000000"></path> <path d="M18.6695 2H16.7695C14.5895 2 13.4395 3.15 13.4395 5.33V7.23C13.4395 9.41 14.5895 10.56 16.7695 10.56H18.6695C20.8495 10.56 21.9995 9.41 21.9995 7.23V5.33C21.9995 3.15 20.8495 2 18.6695 2Z" fill="#000000"></path> <path d="M18.6695 13.4297H16.7695C14.5895 13.4297 13.4395 14.5797 13.4395 16.7597V18.6597C13.4395 20.8397 14.5895 21.9897 16.7695 21.9897H18.6695C20.8495 21.9897 21.9995 20.8397 21.9995 18.6597V16.7597C21.9995 14.5797 20.8495 13.4297 18.6695 13.4297Z" fill="#000000"></path> <path d="M7.24 13.4297H5.34C3.15 13.4297 2 14.5797 2 16.7597V18.6597C2 20.8497 3.15 21.9997 5.33 21.9997H7.23C9.41 21.9997 10.56 20.8497 10.56 18.6697V16.7697C10.57 14.5797 9.42 13.4297 7.24 13.4297Z" fill="#000000"></path> </g></svg>Categories</a>
+                            <div class="relative left-0 -top-4 hidden group-hover:block">
+                                <ul class="grid absolute place-items-center bg-white shadow-xl shadow-blue-900/10 w-96 mt-3">
+                                    <a class="hover:bg-slate-50 hover:scale-110 transition-all hover:shadow-lg hover:rounded-md flex gap-8 items-center px-5 py-2 bg-white text-slate-800 w-96 text-left h-20 text-2xl" href="#">
+                                        <svg fill="#3C4858" width="28px" height="28px" viewBox="-4.8 -4.8 41.60 41.60" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7.11,23.52l1.42-1.41C5.14,18.72,3.37,17,2.39,16L8.53,9.89A1,1,0,1,0,7.11,8.47L.29,15.29A1.05,1.05,0,0,0,0,16a1,1,0,0,0,.3.71Z"></path> <path d="M31.71,15.29c-.1-.09-6.82-6.82-6.82-6.82L23.48,9.89c3.38,3.38,5.15,5.16,6.13,6.09l-6.13,6.13a1,1,0,0,0,.7,1.71,1,1,0,0,0,.71-.3l6.82-6.81A1,1,0,0,0,32,16,1,1,0,0,0,31.71,15.29Z"></path> <path d="M13.27,27.91a1,1,0,0,0,1-.76L19.7,5.33a1,1,0,0,0-1.94-.48L12.3,26.67A1,1,0,0,0,13,27.88,1,1,0,0,0,13.27,27.91Z"></path> </g></svg>
+                                        <div>
+                                            <h1 class="text-slate-600 font-medium text-base">Software Development</h1>
+                                            <p class="text-xs text-gray-500">Software Development Courses</p>
+                                        </div>
+                                    </a>    
+                                    <a class="hover:bg-slate-50 hover:scale-110 transition-all hover:shadow-lg hover:rounded-md flex gap-8 items-center px-5 py-2 bg-white text-slate-800 w-96 text-left h-20 text-2xl" href="#">
+                                        <svg fill="#3C4858" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px" height="28px" viewBox="-56.32 -56.32 368.64 368.64" enable-background="new 0 0 256 241" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M254,188V2H2v186h111v29H75v22h106v-22h-38v-29H254z M19,19h217v151H19L19,19z M158.818,101.623v46.183h-43.476 l-14.18-23.745c-1.295-2.168-1.979-4.646-1.979-7.172V91.57c0-2.613,1.549-5.032,3.988-5.97c4.153-1.597,8.276,1.776,8.276,5.727 v13.277c0,0.962,1.007,1.756,1.996,1.357c0.578-0.233,0.929-0.828,0.929-1.451l0-48.852c0.225-2.982,2.813-5.457,5.964-5.457h0.169 c3.488,0,6.132,2.869,6.132,6.132v24.754l25.936,10.914C156.342,93.69,158.818,97.459,158.818,101.623z M129.563,67.248 c0.338,0.338,0.788,0.506,1.294,0.506c0.506,0,1.181-0.169,1.463-0.675c2.475-2.813,3.769-6.639,3.769-10.408 c0-8.777-7.145-15.865-15.865-15.865c-8.777,0-15.865,7.145-15.865,15.865c0,3.657,1.294,7.257,3.657,10.07 c0.675,0.788,1.969,1.013,2.982,0.338c0.788-0.675,1.013-1.969,0.338-2.982c-1.688-2.194-2.644-4.782-2.644-7.426 c0-6.414,5.288-11.758,11.758-11.758s11.758,5.288,11.758,11.758c0,2.813-1.013,5.626-2.813,7.595 C128.55,65.223,128.775,66.573,129.563,67.248z"></path> </g></svg>
+                                        <div>
+                                            <h1 class="text-slate-600 font-medium text-base">Web Development</h1>
+                                            <p class="text-xs text-gray-500">Web Development Courses</p>
+                                        </div>
+                                    </a>
+                                    <a class="hover:bg-slate-50 hover:scale-110 transition-all hover:shadow-lg hover:rounded-md flex gap-8 items-center px-5 py-2 bg-white text-slate-800 w-96 text-left h-20 text-2xl" href="#">
+                                        <svg width="28px" height="28px" viewBox="-5.28 -5.28 34.56 34.56" fill="none" xmlns="http://www.w3.org/2000/svg" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 5V19C4 19.5523 4.44772 20 5 20H19" stroke="#3C4858" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M18 9L13 13.9999L10.5 11.4998L7 14.9998" stroke="#2b313b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>                                    <div>
+                                            <h1 class="text-slate-600 font-medium text-base">Finance & Science</h1>
+                                            <p class="text-xs text-gray-500">Finance & Accounting Courses</p>
+                                        </div>
+                                    </a><a class="hover:bg-slate-50 hover:scale-110 transition-all hover:shadow-lg hover:rounded-md flex gap-8 items-center px-5 py-2 bg-white text-slate-800 w-96 text-left h-20 text-2xl" href="#">
+                                        <svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px" height="28px" viewBox="-112.64 -112.64 737.28 737.28" xml:space="preserve" fill="" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css">  .st0{fill:#3C4858;}  </style> <g> <path class="st0" d="M64.875,371.016h382.234c16.453,0,29.828-13.359,29.828-29.813V93.391c0-16.453-13.375-29.828-29.828-29.828 H64.875c-16.438,0-29.813,13.375-29.813,29.828v247.813C35.063,357.656,48.438,371.016,64.875,371.016z M84.781,110.938h342.438 v212.703H84.781V110.938z"></path> <path class="st0" d="M0,401.625v21.656c0,13.875,11.281,25.156,25.141,25.156h461.703c13.875,0,25.156-11.281,25.156-25.156 v-21.656H0z"></path> </g> </g></svg>                                    <div>
+                                            <h1 class="text-slate-600 font-medium text-base">IT & Software</h1>
+                                            <p class="text-xs text-gray-500">IT & Software</p>
+                                        </div>
+                                    </a>
+                                </a><a class="hover:bg-slate-50 hover:scale-110 transition-all hover:shadow-lg hover:rounded-md flex gap-8 items-center px-5 py-2 bg-white text-slate-800 w-96 text-left h-20 text-2xl" href="#">
+                                    <svg fill="#3C4858" width="28px" height="28px" viewBox="-112.64 -112.64 737.28 737.28" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="School"> <path d="M330.3835,61.313H269.125V52.562a13.125,13.125,0,0,0-26.25,0V188.16L168.4744,262.563v210H212.66V407.7477c0-24.7034,20.23-46.3092,44.9206-45.4056a43.2983,43.2983,0,0,1,41.7035,43.2843V472.563h44.19v-210L269.125,188.2158V131.313h61.2585A13.1167,13.1167,0,0,0,343.5,118.1987v-43.77A13.1177,13.1177,0,0,0,330.3835,61.313ZM294.0078,282.729c6.3489,50.6629-66.4667,62.0479-76.0669,12.1659C211.5942,244.2342,284.399,232.8523,294.0078,282.729Z"></path> <rect height="131.25" width="78.75" x="369.75" y="341.313"></rect> <path d="M466,315.063l-17.5-78.75H354.3734c7.3551,6.8637,16,15.3275,15.3745,26.25l.0021,52.5Z"></path> <rect height="131.25" width="78.75" x="63.5" y="341.313"></rect> <path d="M46,315.063h96.25v-52.5c-.63-10.9076,8.03-19.4055,15.3766-26.25H63.5Z"></path> </g> </g></svg>                                <div>
+                                        <h1 class="text-slate-600 font-medium text-base">High School</h1>
+                                        <p class="text-xs text-gray-500">High School Subjects</p>
+                                    </div>
+                                </a>
+                            </a><a class="hover:bg-slate-50 hover:scale-110 transition-all hover:shadow-lg hover:rounded-md flex gap-8 items-center px-5 py-2 bg-white text-slate-800 w-96 text-left h-20 text-2xl" href="#">
+                                <svg fill="#3C4858" width="30px" height="30px" viewBox="-140.8 -140.8 921.60 921.60" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M152.1 236.2c-3.5-12.1-7.8-33.2-7.8-33.2h-.5s-4.3 21.1-7.8 33.2l-11.1 37.5H163zM616 96H336v320h280c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24zm-24 120c0 6.6-5.4 12-12 12h-11.4c-6.9 23.6-21.7 47.4-42.7 69.9 8.4 6.4 17.1 12.5 26.1 18 5.5 3.4 7.3 10.5 4.1 16.2l-7.9 13.9c-3.4 5.9-10.9 7.8-16.7 4.3-12.6-7.8-24.5-16.1-35.4-24.9-10.9 8.7-22.7 17.1-35.4 24.9-5.8 3.5-13.3 1.6-16.7-4.3l-7.9-13.9c-3.2-5.6-1.4-12.8 4.2-16.2 9.3-5.7 18-11.7 26.1-18-7.9-8.4-14.9-17-21-25.7-4-5.7-2.2-13.6 3.7-17.1l6.5-3.9 7.3-4.3c5.4-3.2 12.4-1.7 16 3.4 5 7 10.8 14 17.4 20.9 13.5-14.2 23.8-28.9 30-43.2H412c-6.6 0-12-5.4-12-12v-16c0-6.6 5.4-12 12-12h64v-16c0-6.6 5.4-12 12-12h16c6.6 0 12 5.4 12 12v16h64c6.6 0 12 5.4 12 12zM0 120v272c0 13.3 10.7 24 24 24h280V96H24c-13.3 0-24 10.7-24 24zm58.9 216.1L116.4 167c1.7-4.9 6.2-8.1 11.4-8.1h32.5c5.1 0 9.7 3.3 11.4 8.1l57.5 169.1c2.6 7.8-3.1 15.9-11.4 15.9h-22.9a12 12 0 0 1-11.5-8.6l-9.4-31.9h-60.2l-9.1 31.8c-1.5 5.1-6.2 8.7-11.5 8.7H70.3c-8.2 0-14-8.1-11.4-15.9z"></path></g></svg>                                <div>
+                                    <h1 class="text-slate-600 font-medium text-base">Language</h1>
+                                    <p class="text-xs text-gray-500">Language Courses</p>
+                                </div>
+                            </a>
+                        </a><a class="hover:bg-slate-50 hover:scale-110 transition-all hover:shadow-lg hover:rounded-md flex gap-8 items-center px-5 py-2 bg-white text-slate-800 w-96 text-left h-20 text-2xl" href="#">
+                              <svg fill="#3f4b5a" width="28px" height="28px" viewBox="-7.04 -7.04 46.08 46.08" xmlns="http://www.w3.org/2000/svg" stroke="#3f4b5a" stroke-width="0.9279999999999999"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#3c4858" stroke-width="0.576"></g><g id="SVGRepo_iconCarrier"><path d="M 8 5 C 6.346 5 5 6.346 5 8 C 5 9.654 6.346 11 8 11 C 9.654 11 11 9.654 11 8 C 11 6.346 9.654 5 8 5 z M 24 5 C 22.346 5 21 6.346 21 8 C 21 9.654 22.346 11 24 11 C 25.654 11 27 9.654 27 8 C 27 6.346 25.654 5 24 5 z M 8 7 C 8.552 7 9 7.448 9 8 C 9 8.552 8.552 9 8 9 C 7.448 9 7 8.552 7 8 C 7 7.448 7.448 7 8 7 z M 24 7 C 24.552 7 25 7.448 25 8 C 25 8.552 24.552 9 24 9 C 23.448 9 23 8.552 23 8 C 23 7.448 23.448 7 24 7 z M 6.8476562 12 C 6.4166562 12 6.0344375 12.274594 5.8984375 12.683594 L 4.1269531 17.998047 C 3.8539531 18.815047 4.13375 19.714094 4.84375 20.246094 L 8 22.5 L 8 28 L 10 28 L 10 22.5 C 10 21.873 9.7006406 21.273719 9.1816406 20.886719 L 6.0234375 18.632812 L 7.4492188 14.359375 C 7.7892188 15.254375 8.3554688 16.701172 8.3554688 16.701172 C 8.5934688 17.318172 9.0327031 17.842547 9.5957031 18.185547 L 12 20 L 20 20 L 22.40625 18.185547 C 22.96825 17.843547 23.407531 17.318078 23.644531 16.705078 C 23.644531 16.705078 24.202687 15.277516 24.554688 14.353516 L 25.994141 18.619141 L 22.802734 20.898438 C 22.300734 21.273437 22 21.873 22 22.5 L 22 28 L 24 28 L 23.982422 22.513672 L 27.177734 20.232422 C 27.867734 19.714422 28.146047 18.816 27.873047 18 L 26.101562 12.683594 C 25.966563 12.274594 25.583344 12 25.152344 12 L 24.503906 12 C 24.051906 12 23.236656 12.157937 22.847656 13.210938 C 22.593656 13.906937 21.78325 15.975469 21.78125 15.980469 C 21.69825 16.194469 21.543656 16.375281 21.347656 16.488281 C 21.311656 16.508281 21.278094 16.530687 21.246094 16.554688 L 20 17.492188 L 20 12 L 12 12 L 12 17.492188 L 10.753906 16.554688 C 10.720906 16.530687 10.687344 16.509281 10.652344 16.488281 C 10.455344 16.374281 10.30275 16.194562 10.21875 15.976562 C 10.21875 15.976563 9.4083438 13.905031 9.1523438 13.207031 C 8.7653437 12.156031 7.9480937 12 7.4960938 12 L 6.8476562 12 z M 14 14 L 18 14 L 18 18 L 14 18 L 14 14 z M 4.2578125 21.056641 L 4.0546875 23.105469 C 4.0326875 23.326469 3.9748125 23.539234 3.8828125 23.740234 L 1.9335938 28 L 4.1328125 28 L 5.7011719 24.572266 C 5.8851719 24.171266 5.9999219 23.744734 6.0449219 23.302734 L 6.1347656 22.396484 L 4.2617188 21.060547 C 4.2607187 21.059547 4.2588125 21.057641 4.2578125 21.056641 z M 27.742188 21.056641 L 25.865234 22.396484 L 25.955078 23.304688 C 26.000078 23.744688 26.114828 24.170266 26.298828 24.572266 L 27.867188 28 L 30.066406 28 L 28.117188 23.740234 C 28.025187 23.539234 27.968312 23.325469 27.945312 23.105469 L 27.742188 21.056641 z"></path></g></svg>                        <div>
+                                <h1 class="text-slate-600 font-medium text-base">Social Science</h1>
+                                <p class="text-xs text-gray-500">Social Science</p>
+                            </div>
+                        </a>
+                    </a><a class="hover:bg-slate-50 hover:scale-110 transition-all hover:shadow-lg hover:rounded-md flex gap-8 items-center px-5 py-2 bg-white text-slate-800 w-96 text-left h-20 text-2xl" href="#">
+                        <svg fill="#3f4b5a" width="24px" height="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M208 80c0-26.5 21.5-48 48-48h64c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48h-8v40H464c30.9 0 56 25.1 56 56v32h8c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48H464c-26.5 0-48-21.5-48-48V368c0-26.5 21.5-48 48-48h8V288c0-4.4-3.6-8-8-8H312v40h8c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48H256c-26.5 0-48-21.5-48-48V368c0-26.5 21.5-48 48-48h8V280H112c-4.4 0-8 3.6-8 8v32h8c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V368c0-26.5 21.5-48 48-48h8V288c0-30.9 25.1-56 56-56H264V192h-8c-26.5 0-48-21.5-48-48V80z"/></svg>                    <div>
+                          <h1 class="text-slate-600 font-medium text-base">Architectural Engineering</h1>
+                          <p class="text-xs text-gray-500">Architectural Engineering Category</p>
+                      </div>
+                  </a>
+                </a><a class="hover:bg-slate-50 hover:scale-110 transition-all hover:shadow-lg hover:rounded-md flex gap-8 items-center px-5 py-2 bg-white text-slate-800 w-96 text-left h-20 text-2xl" href="#">
+                    <svg fill="#3f4b5a" width="24px" height="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96v32V480H384V128 96 56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM96 96H64C28.7 96 0 124.7 0 160V416c0 35.3 28.7 64 64 64H96V96zM416 480h32c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H416V480zM224 208c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v48h48c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H288v48c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V320H176c-8.8 0-16-7.2-16-16V272c0-8.8 7.2-16 16-16h48V208z"/></svg>                <div>
+                      <h1 class="text-slate-600 font-medium text-base">Health & Fitness</h1>
+                      <p class="text-xs text-gray-500">Health Courses</p>
+                  </div>
+              </a>
+                    </a><a class="hover:bg-slate-50 hover:scale-110 transition-all hover:shadow-lg hover:rounded-md flex gap-8 items-center px-5 py-2 bg-white text-slate-800 w-96 text-left h-20 text-2xl" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#3f4b5a"><path d="M2.047 14.667a.992.992 0 0 0 .466.607l1.909 1.104v2.199a1 1 0 0 0 1 1h2.199l1.104 1.91a1.002 1.002 0 0 0 1.366.366L12 20.75l1.91 1.104a1.002 1.002 0 0 0 1.366-.366l1.103-1.909h2.199a1 1 0 0 0 1-1V16.38l1.909-1.104a.999.999 0 0 0 .366-1.366L20.75 12l1.104-1.909a1 1 0 0 0-.366-1.366l-1.909-1.104V5.422a1 1 0 0 0-1-1H16.38l-1.103-1.909a1.004 1.004 0 0 0-.607-.466.994.994 0 0 0-.759.1L12 3.25l-1.909-1.104a.998.998 0 0 0-1.366.365l-1.104 1.91H5.422a1 1 0 0 0-1 1V7.62L2.513 8.725a1.001 1.001 0 0 0-.365 1.366L3.251 12l-1.104 1.909a1.003 1.003 0 0 0-.1.758z"></path></svg>                        <div>
+                          <h1 class="text-slate-600 font-medium text-base">Certification Training</h1>
+                          <p class="text-xs text-gray-500">Certification Training Courses</p>
+                      </div>
+                  </a>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+                <svg class="hidden lg:block cursor-pointer" width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="0.1" d="M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" fill="none"></path> <path d="M17 17L21 21" stroke="#3C4858" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="#3C4858" stroke-width="3"></path> </g></svg>
+            </div>
+                    <a class="hidden hover:bg-red-600 cursor-pointer lg:flex justify-center items-center gap-2 text-lg bg-red-500 text-white w-28 h-12 rounded-full font-medium" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 16.9998C6 17.3511 6 17.5268 6.01567 17.6795C6.14575 18.9473 7.0626 19.9945 8.30206 20.291C8.45134 20.3267 8.6255 20.3499 8.97368 20.3963L15.5656 21.2753C17.442 21.5254 18.3803 21.6505 19.1084 21.361C19.7478 21.1068 20.2803 20.6406 20.6168 20.0405C21 19.3569 21 18.4104 21 16.5174V7.48232C21 5.58928 21 4.64275 20.6168 3.95923C20.2803 3.35911 19.7478 2.89288 19.1084 2.63868C18.3803 2.34914 17.442 2.47423 15.5656 2.72442L8.97368 3.60335C8.62546 3.64978 8.45135 3.67299 8.30206 3.7087C7.0626 4.0052 6.14575 5.05241 6.01567 6.32018C6 6.47288 6 6.64854 6 6.99984M12 7.99984L16 11.9998M16 11.9998L12 15.9998M16 11.9998H3" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>Login</a>
+                    <a class="lg:hidden block mt-2" href="#" onclick="ww()">
+                        <img src="./menu-hamburger-svgrepo-com.svg" alt="">
+                    </a>
+        </div>
+        </header>
+
+        <!-- Landpage-->
+        <div class="flex justify-center items-center lg:gap-96 bg-gray-100 w-full py-16">
+            <div class="mb-36">
+                <h1 class="mb-6 text-6xl text-orange-400 text-center lg:text-left px-10">Learn. <span class="text-black/80 text-4xl">|</span></h1>
+                <p class="text-lg text-slate-600 text-center lg:text-left px-10">Learning made at you fingertips</p>
+                <a class="group mt-14 hover:-translate-y-3 transition-all font-medium hover:bg-gray-200 text-slate-700 flex justify-center items-center gap-2 bg-white py-4 px- ml-6 rounded-full shadow-lg shadow-slate-200/25" href="#">Introducing Onsite Bottcamps<svg width="17px" height="17px" viewBox="-174.08 -174.08 1372.16 1372.16" xmlns="http://www.w3.org/2000/svg" fill="" stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#4b5a6c" stroke-width="77.824"><path fill="#4b5a6c" d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0z"></path></g><g id="SVGRepo_iconCarrier"><path fill="#4b5a6c" d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0z"></path></g></svg></a>
+            </div>
+            <img class="lg:block hidden scale-105 mr-5" src="./images/img.svg" alt="">
+        </div>
+        <svg 
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#F3F4F6" fill-opacity="1" d="M0,224L1440,96L1440,0L0,0Z">
+        </path>
+        </svg>
+
+        <!-- COURSES -->
+        <div class="bg-gray-100 py-5">
+            <!-- Most loved courses -->
+            <div class="mb-36 max-2xl:mx-32 2xl:mx-28 lg:mx-[80px] md:mx-10 sm:mx-2 max-md:mx-5 max-sm:mx-5">
+                <div class="mt-20 flex justify-items-start flex-col items-start px-2">
+                    <img src="" alt="">
+                     <h2 class="text-center text-3xl text-slate-600 max-sm:text-lg"> <i class="fa-sharp fa-solid fa-heart"></i> Most Loved Courses</h2>
+                </div>
+                <div class="lg:grid-cols-3 md:grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 lg:grid p-2 lg:gap-8 grid gap-4 mt-8">
+           
+                     <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500"> 
+                        <div class="relative">
+                            <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                            <img class="w-full" src="https://tiigsi.com/pictures/c6-19112019.png" alt=""> 
+                        </div>
+                          <h2 class="text-gray-700 text-2xl text-center py-12 tracking-wide font-normal px-10">Software
+                               Development</h2>
+                     </div>
+                     <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">
+                        <div class="relative">
+                            <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                            <img class="w-full" src="https://tiigsi.com/pictures/c100-12042020.png" alt=""> 
+                        </div>
+                          <h2 class="text-gray-700 text-2xl text-center py-12 tracking-wide font-normal px-10">Advanced Graphic Design: Adobe Photoshop CC 2020</h2>
+                     </div>
+                     <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">                    
+                        <div class="relative">
+                            <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                            <img class="w-full" src="https://tiigsi.com/pictures/c18-25012020.png" alt=""> 
+                        </div>
+                          <h2 class="text-gray-700 text-2xl text-center py-12 tracking-wide font-normal px-10">Computer Application</h2>
+                     </div>
+                     <div class=" overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">                    
+                        <div class="relative">
+                            <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                            <img class="w-full" src="https://tiigsi.com/pictures/c5-19112019.png" alt=""> 
+                        </div>
+                          <h2 class="text-gray-700 text-2xl text-center py-10 tracking-wide font-normal px-10">Networking Essentials</h2>
+                     </div>
+                     <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">                    
+                        <div class="relative">
+                            <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                            <img class="w-full" src="https://tiigsi.com/pictures/c2-15112019.png" alt=""> 
+                        </div>
+                          <h2 class="text-gray-700 text-2xl text-center py-10 tracking-wide font-normal px-10">CCTV Cameras</h2>
+                     </div>
+                     <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">                    
+                        <div class="relative">
+                            <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                            <img class="w-full" src="https://tiigsi.com/pictures/c1-15112019.png" alt=""> 
+                        </div>
+                          <h2 class="text-gray-700 text-2xl text-center py-10 tracking-wide font-normal px-10">Finger Print Scanner</h2>
+                     </div>
+                </div>
+            </div>
+    
+            <!-- Hot & new courses -->
+           <div class="mb-36 max-2xl:mx-32 2xl:mx-28 lg:mx-[80px] md:mx-10 sm:mx-2 max-md:mx-5 max-sm:mx-5">
+            <div class="mt-20 flex justify-items-start flex-col items-start px-2">
+                <img src="" alt="">
+                 <h2 class="text-center text-3xl text-slate-600 max-sm:text-lg"> <i class="fa-solid fa-book-open"></i> Hot & new courses</h2>
+            </div>
+            <div class="lg:grid-cols-3 md:grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 lg:grid p-2 lg:gap-8 grid gap-4 mt-8">
+       
+                 <div class="relative overflow-hidden bg-white pb-16 rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500"> 
+                    <div class="relative">
+                        <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                        <img class="w-full" src="https://tiigsi.com/pictures/c405-13022023.png" alt=""> 
+                    </div>
+                      <h2 class="text-gray-700 text-2xl text-center py-12 tracking-wide font-normal px-10">Fundementals of Pharmacology III</h2>
+                 </div>
+                 <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">
+                    <div class="relative">
+                        <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                        <img class="w-full" src="https://tiigsi.com/pictures/c371-02082022.png" alt=""> 
+                    </div>
+                      <h2 class="text-gray-700 text-2xl text-center py-12 tracking-wide font-normal px-10">The Complete React and Next JS Bootcamp</h2>
+                 </div>
+                 <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">                    
+                    <div class="relative">
+                        <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                        <img class="w-full" src="https://tiigsi.com/pictures/c355-17042022.png" alt=""> 
+                    </div>
+                      <h2 class="text-gray-700 text-2xl text-center py-12 tracking-wide font-normal px-10">Capcut Mobile Video Editing</h2>
+                 </div>
+                 <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">                    
+                    <div class="relative">
+                        <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                        <img class="w-full" src="https://tiigsi.com/pictures/c354-16042022.png" alt=""> 
+                    </div>
+                      <h2 class="text-gray-700 text-2xl text-center py-12 tracking-wide font-normal px-10">Database Design and Implementation Bootcamp (Ongoing)</h2>
+                 </div>
+                 <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">                    
+                    <div class="relative">
+                        <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                        <img class="w-full" src="https://tiigsi.com/pictures/c349-07042022.png" alt=""> 
+                    </div>
+                      <h2 class="text-gray-700 text-2xl text-center py-12 tracking-wide font-normal px-10">Fundementals of Pharmacology II</h2>
+                 </div>
+                 <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">                    
+                    <div class="relative">
+                        <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                        <img class="w-full" src="https://tiigsi.com/pictures/c347-28032022.png" alt=""> 
+                    </div>
+                      <h2 class="text-gray-700 text-2xl text-center py-12 tracking-wide font-normal px-10">Lumion Interior Design</h2>
+                 </div>
+            </div>
+            </div>
+            
+            <!-- Best selling courses -->
+            <div class="mb-36 max-2xl:mx-32 2xl:mx-28 lg:mx-[80px] md:mx-10 sm:mx-2 max-md:mx-5 max-sm:mx-5">
+                <div class="mt-20 flex justify-items-start flex-col items-start px-2">
+                    <img src="" alt="">
+                     <h2 class="text-center text-3xl text-slate-600 max-sm:text-lg"> <i class="fa-solid fa-book"></i> Best selling courses</h2>
+                </div>
+                <div class="lg:grid-cols-3 md:grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 lg:grid p-2 lg:gap-8 grid gap-4 mt-8">
+           
+                     <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500"> 
+                        <div class="relative">
+                            <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                            <img class="w-full" src="https://tiigsi.com/pictures/c100-12042020.png" alt=""> 
+                        </div>
+                          <h2 class="text-gray-700 text-2xl text-center py-16 tracking-wide font-normal px-10">Advanced Graphic Design: Adobe Photoshop CC 2020</h2>
+                     </div>
+                     <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">
+                        <div class="relative">
+                            <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                            <img class="w-full" src="https://tiigsi.com/pictures/c18-25012020.png" alt=""> 
+                        </div>
+                          <h2 class="text-gray-700 text-2xl text-center py-16 tracking-wide font-normal px-10">Computer Application</h2>
+                     </div>
+                     <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">                    
+                        <div class="relative">
+                            <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                            <img class="w-full" src="https://tiigsi.com/pictures/c2-15112019.png" alt=""> 
+                        </div>
+                          <h2 class="text-gray-700 text-2xl text-center py-16 tracking-wide font-normal px-10">CCTV Cameras</h2>
+                     </div>
+                     <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">                    
+                        <div class="relative">
+                            <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                            <img class="w-full" src="https://tiigsi.com/pictures/c6-19112019.png" alt=""> 
+                        </div>
+                          <h2 class="text-gray-700 text-2xl text-center py-12 tracking-wide font-normal px-10">Computer Unlocking</h2>
+                     </div>
+                     <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">                    
+                        <div class="relative">
+                            <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                            <img class="w-full" src="https://tiigsi.com/pictures/c117-06052020.png" alt=""> 
+                        </div>
+                          <h2 class="text-gray-700 text-2xl text-center py-12 tracking-wide font-normal px-10">Adobe Premiere Pro CC: Learn Video Editing In Premiere Pro</h2>
+                     </div>
+                     <div class="overflow-hidden bg-white rounded shadow-lg shadow-gray-300/40 hover:shadow-2xl -translate-y-0 hover:-translate-y-3 hover:transition-all hover:duration-500 duration-500">                    
+                        <div class="relative">
+                            <a class="absolute right-0 bottom-0 w-[65px] h-[30px] bg-emerald-500 border-2 border-white/90 text-white text-sm font-medium font-sans rounded-full m-2 flex justify-center items-center" href="#">$10.00</a>
+                            <img class="w-full" src="https://tiigsi.com/pictures/c170-06092020.png" alt=""> 
+                        </div>
+                        <h2 class="text-gray-700 text-2xl text-center py-12 tracking-wide font-normal px-10">The Complete WordPress Developer</h2>
+                     </div>
+                </div>
+                </div>
+
+        <!-- end -->
+        <div class="grid place-items-center mb-16 gap-10">
+            <div class="flex gap-2">
+                <h1 class="text-blue-600 text-xl font-semibold">*Good to know!</h1>
+                <span class="text-xl text-gray-500">You are not limited to the sample courses above.</span>
+            </div>
+            <a class="group border-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white hover:transition-colors hover:duration-300 duration-300 ease-in-out text-xl font-medium py-4 px-12 rounded" href="#">Explore Course Library <i class="group-hover:text-white fa-solid fa-arrow-right"></i>  </a>
+        </div>
+
+        <!-- Introducing On-site Bootcamps!-->
+        </div>
+        <div class="bg-gray-50 w-screen  flex items-center justify-center">
+            <div class="flex flex-col  pb-32 md:px-24     gap-28 pt-20 ">
+                <div class="contianer px-5 md:px-0 ">
+                    <div class="flex flex-row gap-2 pb-10  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 md:h-9 md:w-9" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path
+                                d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+                        </svg>
+                        <h1 class="text-2xl md:text-3xl tracking-wide text-gray-600">Introducing On-site
+                            Bootcamps!</h1>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-10 md:gap-5  ">
+                        <div
+                            class="flex flex-col bg-white gap-3 rounded-lg shadow-lg transform hover:-translate-y-3 transition">
+                            <img src="images/3t.png" class="rounded-t-lg">
+                            <h1 class=" text-2xl text-gray-600 pl-10">Graphic Design Bootcamp</h1>
+                            <div class="flex flex-col gap-10 px-10">
+                                <p class="text-gray-400 ">Noqo Motion Graphics & Video Editor! Mudo kooban ku
+                                    baro
+                                    Barnaamijyada ugu
+                                    Caansan ee Duwan.
+                                </p>
+                                <p class=" pb-10 text-gray-400">Diploma Certificate (4 courses)</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col bg-white gap-3 rounded-lg shadow-lg transform hover:-translate-y-3 transition">
+                            <img src="images/2t.png" class="rounded-t-lg">
+                            <h1 class=" text-2xl text-gray-600 pl-10">Full Stack Coding Bootcamp</h1>
+                            <div class="flex flex-col gap-10 px-10">
+                                <p class="text-gray-400">Noqo Full Stack Software Developer! oo baro Front-End Technologies,
+                                    Back-End Technologies iyo sidoo kale Mobile Apps ka
+                                </p>
+                                <p class=" pb-10 text-gray-400">Diploma Certificate (4 courses)</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col bg-white gap-3 rounded-lg shadow-lg transform hover:-translate-y-3 transition">
+                            <img src="images/1t.png" class="rounded-t-lg">
+                            <h1 class=" text-2xl text-gray-600 pl-10">React JS Bootcamp</h1>
+                            <div class="flex flex-col gap-10 px-10">
+                                <p class="text-gray-400">Noqo React JS Developer! awood u leh inuu dhiso Web Apps
+                                    interactive ah, Design qurux badan, sidoo kale Front-End Developer dhamaystiran.
+                                </p>
+                                <p class=" pb-10 text-gray-400">Diploma Certificate (4 courses)</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col bg-white gap-3 rounded-lg shadow-lg transform hover:-translate-y-3 transition">
+                            <img src="images/1d.png" class="rounded-t-lg">
+                            <h1 class=" text-2xl text-gray-600 pl-10">Data Struturs and Algorithms with JavaScript Bootcamp
+                            </h1>
+                            <div class="flex flex-col gap-10 px-10">
+                                <p class="text-gray-400">Noqo Software Developer! awood u leh inuu xaliyo Problems kala
+                                    duwan, dhisi kara Application dhamaystiran.
+                                </p>
+                                <p class=" pb-10 text-gray-400">Diploma Certificate (4 courses)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Categories -->
+        <div class="bg-gray-200 flex flex-col items-center ">
+            <div class="contianer mx-3 md:mx-36 pb-20 pt-10">
+                <div class="flex items-center gap-1 pb-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-8" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    <h1 class="text-2xl  text-gray-600">Top Categories</h1>
+                </div>
+                <div class="grid md:grid-cols-3   gap-5">
+                    <a href="#"
+                        class=" h-48 rounded-md  hover:brightness-75 flex items-center justify-center overflow-hidden ">
+                        <div>
+                            <img src="images/1o.png"
+                                class=" max-w-full max-h-full filter brightness-50 transform hover:scale-105 transition relative">
+                        </div>
+                        <span class=" text-white text-center font-semibold absolute z-10 ">
+                            <div class="flex flex-col gap-4">
+                                <h1 class="text-xl tracking-wide font-semibold">Software Development</h1>
+                                <p class="text-sm">27 Courses</p>
+                            </div>
+                        </span>
+                    </a>
+                    <a href="#" class=" h-48 rounded-md   flex items-center justify-center overflow-hidden ">
+                        <div>
+                            <img src="images/2o.jpg"
+                                class=" max-w-full max-h-full filter brightness-50 transform hover:scale-105 transition relative">
+                        </div>
+                        <span class=" tracking-wide text-center text-white font-semibold absolute z-10 ">
+                            <div class="flex flex-col gap-4">
+                                <h1 class="text-xl tracking-wide font-semibold ">Web Development</h1>
+                                <p class="text-sm">27 Courses</p>
+                            </div>
+                        </span>
+                    </a>
+                    <a href="#"
+                        class=" h-48 rounded-md  hover:brightness-100 flex items-center justify-center overflow-hidden ">
+                        <div>
+                            <img src="images/3o.jpg"
+                                class=" max-w-full max-h-full filter brightness-50 transform hover:scale-105 transition relative">
+                        </div>
+                        <span class=" tracking-wide text-center text-white font-semibold absolute z-10 ">
+                            <div class="flex flex-col gap-4">
+                                <h1 class="text-xl tracking-wide font-semibold ">Finance & Accounting</h1>
+                                <p class="text-sm">26 Courses</p>
+                            </div>
+                        </span>
+                    </a>
+                    <a href="#"
+                        class=" h-48 rounded-md  hover:brightness-100 flex items-center justify-center overflow-hidden ">
+                        <div>
+                            <img src="images/4o.jpg"
+                                class=" max-w-full max-h-full filter brightness-50 transform hover:scale-105 transition relative">
+                        </div>
+                        <span class=" tracking-wide text-center text-white font-semibold absolute z-10 ">
+                            <div class="flex flex-col gap-4">
+                                <h1 class="text-xl tracking-wide font-semibold ">IT & Software</h1>
+                                <p class="text-sm">63 Courses</p>
+                            </div>
+                        </span>
+                    </a>
+                    <a href="#"
+                        class=" h-48 rounded-md  hover:brightness-100 flex items-center justify-center overflow-hidden ">
+                        <div>
+                            <img src="images/5o.jpg"
+                                class=" max-w-full max-h-full filter brightness-50 transform hover:scale-105 transition relative">
+                        </div>
+                        <span class=" tracking-wide text-center text-white font-semibold absolute z-10 ">
+                            <div class="flex flex-col gap-4">
+                                <h1 class="text-xl tracking-wide font-semibold ">High School</h1>
+                                <p class="text-sm">34 Courses</p>
+                            </div>
+                        </span>
+                    </a>
+                    <a href="#"
+                        class=" h-48 rounded-md  hover:brightness-100 flex items-center justify-center overflow-hidden ">
+                        <div>
+                            <img src="images/6o.jpg"
+                                class=" max-w-full max-h-full filter brightness-50 transform hover:scale-105 transition relative">
+                        </div>
+                        <span class=" tracking-wide text-center text-white font-semibold absolute z-10 ">
+                            <div class="flex flex-col gap-4">
+                                <h1 class="text-xl tracking-wide font-semibold ">Language</h1>
+                                <p class="text-sm">18 Courses</p>
+                            </div>
+                        </span>
+                    </a>
+                    <a href="#"
+                        class=" h-48 rounded-md  hover:brightness-100 flex items-center justify-center overflow-hidden ">
+                        <div>
+                            <img src="images/7o.png"
+                                class=" max-w-full max-h-full filter brightness-50 transform hover:scale-105 transition relative">
+                        </div>
+                        <span class=" tracking-wide text-center text-white font-semibold absolute z-10 ">
+                            <div class="flex flex-col gap-4">
+                                <h1 class="text-xl tracking-wide font-semibold ">Social Science</h1>
+                                <p class="text-sm">10 Courses</p>
+                            </div>
+                        </span>
+                    </a>
+                    <a href="#"
+                        class=" h-48 rounded-md  hover:brightness-100 flex items-center justify-center overflow-hidden ">
+                        <div>
+                            <img src="images/8o.jpg"
+                                class=" max-w-full max-h-full filter brightness-50 transform hover:scale-105 transition relative">
+                        </div>
+                        <span class=" tracking-wide text-center text-white font-semibold absolute z-10 ">
+                            <div class="flex flex-col gap-4">
+                                <h1 class="text-xl tracking-wide font-semibold ">Architectural Engineering</h1>
+                                <p class="text-sm">2 Courses</p>
+                            </div>
+                        </span>
+                    </a>
+                    <a href="#"
+                        class=" h-48 rounded-md  hover:brightness-100 flex items-center justify-center overflow-hidden ">
+                        <div>
+                            <img src="images/9o.jpg"
+                                class=" max-w-full max-h-full filter brightness-50 transform hover:scale-105 transition relative">
+                        </div>
+                        <span class=" tracking-wide text-center text-white font-semibold absolute z-10 ">
+                            <div class="flex flex-col gap-4">
+                                <h1 class="text-xl tracking-wide font-semibold ">Health & Fitness</h1>
+                                <p class="text-sm">26 Courses</p>
+                            </div>
+                        </span>
+                    </a>
+                    <a href="#"
+                        class=" h-48 rounded-md  hover:brightness-100 flex items-center justify-center overflow-hidden ">
+                        <div>
+                            <img src="images/10o.jpg"
+                                class=" max-w-full max-h-full filter brightness-50 transform hover:scale-105 transition relative">
+                        </div>
+                        <span class=" tracking-wide text-center text-white font-semibold absolute z-10 ">
+                            <div class="flex flex-col gap-4">
+                                <h1 class="text-xl tracking-wide font-semibold ">Certification Training</h1>
+                                <p class="text-sm">3 Courses</p>
+                            </div>
+                        </span>
+                    </a>
+    
+                </div>
+            </div>
+        </div>
+        <!-- Our Students -->
+        <div class="bg-gray-50  w-screen flex  justify-center  ">
+            <div class="container md:w-1/2 ">
+                <div class="flex flex flex-col px-3 py-20 gap-5">
+    
+                    <div class="flex flex-row gap-1 items-center ">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                        </svg>
+                        <h1 class="text-gray-600 text-2xl tracking-wide md:text-3xl  ">What our students have to say</h1>
+                    </div>
+                    <p class="text-center text-gray-600 text-lg font-serif  italic md:text-2xl tracking-wide">"Aad iyo Aad
+                        baan ugu bogoy
+                        ugana
+                        mabsuuday
+                        habka
+                        sharaxaada
+                        ustaadka iyo
+                        sida casharba
+                        kakale usii furfuryo.
+                        Tiigsi tecknology waad mahadsanitihin"</p>
+                    <H3 class="font-mono font-bold text-center text-gray-700">Mohamed Software Developer</H3>
+                </div>
+            </div>
+        </div>
+        <!-- Tiigsi Technology -->
+        <div class="bg-gray-200">
+            <div class="containr py-10 px-3 flex flex-col items-center justify-center gap-10">
+                <div class="flex flex-col md:flex-row gap-10 md:w-1/2">
+                    <div class="flex flex-col flex-1">
+                        <img src="images/logo.png" class="w-28 h-15">
+                        <p class="text-gray-400  ">Tiigsi Technology was founded in 2019 with envision to
+                            provide
+                            anyone,
+                            anywhere with access to the world’s best online education.</p>
+                    </div>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-10 pb-10 flex-1">
+                        <div>
+                            <a href="#" class="hover:underline text-gray-400">Reward</a>
+                        </div>
+    
+                        <div class="flex flex-col gap-2">
+                            <p class="font-semibold text-gray-600">About</p>
+                            <a href="#" class="text-gray-400 text-sm hover:underline">About</a>
+                            <a href="#" class="text-gray-400 text-sm hover:underline">Careers</a>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <p class="font-semibold text-gray-600">Company</p>
+                            <a href="#" class="text-gray-400 text-sm hover:underline">Privacy</a>
+                            <a href="#" class="text-gray-400 text-sm hover:underline">Terms</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row justify-between  items-center gap-10 md:w-1/2">
+                    <p class="text-sm text-gray-400 font-semibold">© 2021 <span
+                            class="hover:text-blue-600 transition cursor-pointer ">Tiigsi
+                            Technology</span>
+                        . All rights
+                        reserved.</p>
+                    <div class="flex gap-4">
+                        <i class="fab fa-instagram text-gray-400 hover:text-blue-600 transition cursor-pointer"></i>
+                        <i class="fab fa-facebook text-gray-400 hover:text-blue-600 transition cursor-pointer"></i>
+                        <i class="fab fa-twitter text-gray-400 hover:text-blue-600 transition cursor-pointer"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
